@@ -51,7 +51,7 @@
 			</snapshots>
 			<id>central</id>
 			<name>repo</name>
-			<url>http://mvn.hz.netease.com/artifactory/repo</url>
+			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
 		</repository>
 		<repository>
 			<id>maven</id>
