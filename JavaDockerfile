@@ -12,6 +12,6 @@ WORKDIR ~/java
 
 RUN mvn package && cp -rf ~/java/target/robot-dt2/* /var/lib/tomcat7/webapps/ROOT/
 
-WORKDIR /var/lib/tomcat7/webapps/ROOT/
+#WORKDIR /var/lib/tomcat7/webapps/ROOT/
 
 ENTRYPOINT /etc/init.d/tomcat7 start
